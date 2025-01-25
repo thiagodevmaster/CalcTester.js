@@ -1,10 +1,10 @@
-import { appendToDisplay, backspace, clearDisplay, calculate } from "./calculadora-ui.js";
+import { appendToDisplay, backspace, clearDisplay, calculate } from "./js/modules/calculadora-ui.js";
 import {
     tokenizar,
     converterParaPosFixa,
     calcularExpressao,
     calcularPosFixa
-} from "./calculadora.js";
+} from "./js/modules/calculadora.js";
 
 
 

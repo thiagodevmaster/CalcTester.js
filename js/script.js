@@ -1,7 +1,7 @@
 import {
     calcularExpressao
-} from './calculadora.js';
-import { appendToDisplay, clearDisplay, backspace, calculate } from './calculadora-ui.js';
+} from './modules/calculadora.js';
+import { appendToDisplay, clearDisplay, backspace, calculate } from './modules/calculadora-ui.js';
 
 document.addEventListener('DOMContentLoaded', () => {
     const display = document.getElementById('display');
