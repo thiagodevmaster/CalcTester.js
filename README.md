@@ -24,12 +24,15 @@ A organização do projeto foi feita de forma modular para facilitar a manutenç
 calculadora/
 │
 ├── index.html          # Arquivo principal da interface
-├── styles.css          # Estilos para a calculadora
-├── script.js           # Script principal para manipulação do DOM
-├── calculadora.js      # Lógica matemática do cálculo (tokenização e pós-fixa)
-├── calculadora-ui.js   # Lógica de interação com o usuário
+├── css
+|     ├── styles.css    # Estilos para a calculadora
+|          
+├── js
+|     ├── modules
+|               ├── calculadora.ui.js # Lógica de interação com o usuário
+|               ├── calculadora.js # Lógica matemática do cálculo (tokenização e pós-fixa)
+|     ├── script.js     # Script principal para manipulação do DOM
 ├── tests/              # Pasta contendo os testes automatizados
-└── README.md           # Documentação do projeto
 ```
 
 
